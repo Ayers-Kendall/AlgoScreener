@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="150sp"
+    android:layout_height="100sp">
+
+    <Spinner
+        android:id="@+id/screener_load_settings_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:background="#00000000" />
+
+    <CheckBox
+        android:id="@+id/default_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set as Default"
+        />
+</LinearLayout>

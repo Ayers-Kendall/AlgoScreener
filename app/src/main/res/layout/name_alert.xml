@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="250sp"
+    android:layout_height="75sp">
+
+    <EditText
+        android:id="@+id/screener_save_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Save Name"/>
+
+    <CheckBox
+        android:id="@+id/default_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set as Default" />
+</LinearLayout>

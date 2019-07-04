@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="price_above_options">
+        <item>None</item>
+        <item>Above $75.00</item>
+        <item>Above $50.00</item>
+        <item>Above $30.00</item>
+        <item>Above $15.00</item>
+        <item>Above $10.00</item>
+        <item>Above $5.00</item>
+        <item>Above $3.00</item>
+        <item>Above $1.00</item>
+
+    </string-array>
+    <string-array name="price_below_options">
+        <item>None</item>
+        <item>Below $75.00</item>
+        <item>Below $50.00</item>
+        <item>Below $30.00</item>
+        <item>Below $15.00</item>
+        <item>Below $10.00</item>
+        <item>Below $5.00</item>
+        <item>Below $3.00</item>
+        <item>Below $1.00</item>
+    </string-array>
+    
+    <string-array name="market_cap_above_options">
+        <item>None</item>
+        <item>Above 100B</item>
+        <item>Above 10B</item>
+        <item>Above 5B</item>
+        <item>Above 1B</item>
+        <item>Above 500M</item>
+        <item>Above 300M</item>
+        <item>Above 100M</item>
+    </string-array>
+    <string-array name="market_cap_below_options">
+        <item>None</item>
+        <item>Below 100B</item>
+        <item>Below 10B</item>
+        <item>Below 5B</item>
+        <item>Below 1B</item>
+        <item>Below 500M</item>
+        <item>Below 300M</item>
+        <item>Below 100M</item>
+    </string-array>
+    
+    <string-array name="relative_volume_above_options">
+        <item>None</item>
+        <item>Above 10.0x</item>
+        <item>Above 5.0x</item>
+        <item>Above 3.0x</item>
+        <item>Above 2.0x</item>
+        <item>Above 1.75x</item>
+        <item>Above 1.5x</item>
+        <item>Above 1.25x</item>
+        <item>Above 1.0x</item>
+        <item>Above 0.75x</item>
+        <item>Above 0.5x</item>
+    </string-array>
+    <string-array name="relative_volume_below_options">
+        <item>None</item>
+        <item>Below 10.0x</item>
+        <item>Below 5.0x</item>
+        <item>Below 3.0x</item>
+        <item>Below 2.0x</item>
+        <item>Below 1.75x</item>
+        <item>Below 1.5x</item>
+        <item>Below 1.25x</item>
+        <item>Below 1.0x</item>
+        <item>Below .75x</item>
+        <item>Below 0.5x</item>
+    </string-array>
+    
+    <string-array name="percent_change_above_options">
+        <item>None</item>
+        <item>Above 20.0%</item>
+        <item>Above 10.0%</item>
+        <item>Above 7.5%</item>
+        <item>Above 5.0%</item>
+        <item>Above 4.0%</item>
+        <item>Above 3.0%</item>
+        <item>Above 2.0%</item>
+        <item>Above 1.5%</item>
+        <item>Above 1.0%</item>
+        <item>Above 0.5%</item>
+        <item>Above 0.0%</item>
+        <item>Above -1.0%</item>
+        <item>Above -2.0%</item>
+        <item>Above -5.0%</item>
+    </string-array>
+    <string-array name="percent_change_below_options">
+        <item>None</item>
+        <item>Below 10.0%</item>
+        <item>Below 7.5%</item>
+        <item>Below 5.0%</item>
+        <item>Below 2.0%</item>
+        <item>Below 1.0%</item>
+        <item>Below 0.0%</item>
+        <item>Below -1.0%</item>
+        <item>Below -1.5%</item>
+        <item>Below -2.0%</item>
+        <item>Below -3.0%</item>
+        <item>Below -4.0%</item>
+        <item>Below -5.0%</item>
+        <item>Below -10.0%</item>
+        <item>Below -20.0%</item>
+    </string-array>
+    
+    <string-array name="volatility_above_options">
+        <item>None</item>
+        <item>Above 20.0%</item>
+        <item>Above 10.0%</item>
+        <item>Above 7.5%</item>
+        <item>Above 5.0%</item>
+        <item>Above 4.0%</item>
+        <item>Above 3.0%</item>
+        <item>Above 2.0%</item>
+        <item>Above 1.5%</item>
+        <item>Above 1.0%</item>
+        <item>Above 0.5%</item>
+    </string-array>
+    <string-array name="volatility_below_options">
+        <item>None</item>
+        <item>Below 20.0%</item>
+        <item>Below 10.0%</item>
+        <item>Below 7.5%</item>
+        <item>Below 5.0%</item>
+        <item>Below 4.0%</item>
+        <item>Below 3.0%</item>
+        <item>Below 2.0%</item>
+        <item>Below 1.5%</item>
+        <item>Below 1.0%</item>
+        <item>Below 0.5%</item>
+    </string-array>
+
+    <string-array name="relative_volatility_above_options">
+        <item>None</item>
+        <item>Above 10.0x</item>
+        <item>Above 5.0x</item>
+        <item>Above 3.0x</item>
+        <item>Above 2.0x</item>
+        <item>Above 1.5x</item>
+        <item>Above 1.0x</item>
+        <item>Above 0.5x</item>
+    </string-array>
+    <string-array name="relative_volatility_below_options">
+        <item>None</item>
+        <item>Below 10.0x</item>
+        <item>Below 5.0x</item>
+        <item>Below 3.0x</item>
+        <item>Below 2.0x</item>
+        <item>Below 1.5x</item>
+        <item>Below 1.0x</item>
+        <item>Below 0.5x</item>
+    </string-array>
+    
+    <string-array name="volume_above_options">
+        <item>None</item>
+        <item>Above 100M</item>
+        <item>Above 10M</item>
+        <item>Above 5M</item>
+        <item>Above 2M</item>
+        <item>Above 1M</item>
+        <item>Above 500K</item>
+        </string-array>
+    <string-array name="volume_below_options">
+        <item>None</item>
+        <item>Below 100M</item>
+        <item>Below 10M</item>
+        <item>Below 5M</item>
+        <item>Below 2M</item>
+        <item>Below 1M</item>
+        <item>Below 500K</item>
+    </string-array>
+
+    <string-array name="average_volume_above_options">
+        <item>None</item>
+        <item>Above 100M</item>
+        <item>Above 10M</item>
+        <item>Above 5M</item>
+        <item>Above 2M</item>
+        <item>Above 1M</item>
+        <item>Above 500K</item>
+    </string-array>
+    <string-array name="average_volume_below_options">
+        <item>None</item>
+        <item>Below 100M</item>
+        <item>Below 10M</item>
+        <item>Below 5M</item>
+        <item>Below 2M</item>
+        <item>Below 1M</item>
+        <item>Below 500K</item>
+    </string-array>
+
+
+    <string-array name="volume_4rel_3_above_options">
+        <item>None</item>
+        <item>Above 10.0x</item>
+        <item>Above 5.0x</item>
+        <item>Above 3.0x</item>
+        <item>Above 2.0x</item>
+        <item>Above 1.75x</item>
+        <item>Above 1.5x</item>
+        <item>Above 1.25x</item>
+        <item>Above 1.0x</item>
+        <item>Above 0.75x</item>
+        <item>Above 0.5x</item>
+    </string-array>
+    <string-array name="volume_4rel_3_below_options">
+        <item>None</item>
+        <item>Below 10.0x</item>
+        <item>Below 5.0x</item>
+        <item>Below 3.0x</item>
+        <item>Below 2.0x</item>
+        <item>Below 1.75x</item>
+        <item>Below 1.5x</item>
+        <item>Below 1.25x</item>
+        <item>Below 1.0x</item>
+        <item>Below 0.75x</item>
+        <item>Below 0.5x</item>
+    </string-array>
+
+
+    <string-array name="volume_3rel_2_above_options">
+        <item>None</item>
+        <item>Above 10.0x</item>
+        <item>Above 5.0x</item>
+        <item>Above 3.0x</item>
+        <item>Above 2.0x</item>
+        <item>Above 1.75x</item>
+        <item>Above 1.5x</item>
+        <item>Above 1.25x</item>
+        <item>Above 1.0x</item>
+        <item>Above 0.75x</item>
+        <item>Above 0.5x</item>
+    </string-array>
+    <string-array name="volume_3rel_2_below_options">
+        <item>None</item>
+        <item>Below 10.0x</item>
+        <item>Below 5.0x</item>
+        <item>Below 3.0x</item>
+        <item>Below 2.0x</item>
+        <item>Below 1.75x</item>
+        <item>Below 1.5x</item>
+        <item>Below 1.25x</item>
+        <item>Below 1.0x</item>
+        <item>Below 0.75x</item>
+        <item>Below 0.5x</item>
+    </string-array>
+
+    <string-array name="volume_2rel_1_above_options">
+        <item>None</item>
+        <item>Above 10.0x</item>
+        <item>Above 5.0x</item>
+        <item>Above 3.0x</item>
+        <item>Above 2.0x</item>
+        <item>Above 1.75x</item>
+        <item>Above 1.5x</item>
+        <item>Above 1.25x</item>
+        <item>Above 1.0x</item>
+        <item>Above 0.75x</item>
+        <item>Above 0.5x</item>
+    </string-array>
+    <string-array name="volume_2rel_1_below_options">
+        <item>None</item>
+        <item>Below 10.0x</item>
+        <item>Below 5.0x</item>
+        <item>Below 3.0x</item>
+        <item>Below 2.0x</item>
+        <item>Below 1.75x</item>
+        <item>Below 1.5x</item>
+        <item>Below 1.25x</item>
+        <item>Below 1.0x</item>
+        <item>Below 0.75x</item>
+        <item>Below 0.5x</item>
+    </string-array>
+
+    <string-array name="percent_4rel_3_above_options">
+        <item>None</item>
+        <item>Above 20.0%</item>
+        <item>Above 10.0%</item>
+        <item>Above 5.0%</item>
+        <item>Above 4.0%</item>
+        <item>Above 3.0%</item>
+        <item>Above 2.0%</item>
+        <item>Above 1.5%</item>
+        <item>Above 1.0%</item>
+        <item>Above 0.5%</item>
+        <item>Above 0.0%</item>
+        <item>Above -.5%</item>
+        <item>Above -1.0%</item>
+        <item>Above -1.5%</item>
+        <item>Above -2.0%</item>
+        <item>Above -3.0%</item>
+        <item>Above -4.0%</item>
+        <item>Above -5.0%</item>
+        <item>Above -10.0%</item>
+    </string-array>
+    <string-array name="percent_4rel_3_below_options">
+        <item>None</item>
+        <item>Below 20%</item>
+        <item>Below 10%</item>
+        <item>Below 5.0%</item>
+        <item>Below 4.0%</item>
+        <item>Below 3.0%</item>
+        <item>Below 2.0%</item>
+        <item>Below 1.5%</item>
+        <item>Below 1.0%</item>
+        <item>Below 0.5%</item>
+        <item>Below -1.0%</item>
+        <item>Below -1.5%</item>
+        <item>Below -2.0%</item>
+        <item>Below -3.0%</item>
+        <item>Below -4.0%</item>
+        <item>Below -5.0%</item>
+        <item>Below -10.0%</item>
+    </string-array>
+
+    <string-array name="percent_3rel_2_above_options">
+        <item>None</item>
+        <item>Above 20.0%</item>
+        <item>Above 10.0%</item>
+        <item>Above 5.0%</item>
+        <item>Above 4.0%</item>
+        <item>Above 3.0%</item>
+        <item>Above 2.0%</item>
+        <item>Above 1.5%</item>
+        <item>Above 1.0%</item>
+        <item>Above 0.5%</item>
+        <item>Above 0.0%</item>
+        <item>Above -.5%</item>
+        <item>Above -1%</item>
+        <item>Above -1.5%</item>
+        <item>Above -2.0%</item>
+        <item>Above -3.0%</item>
+        <item>Above -4.0%</item>
+        <item>Above -5.0%</item>
+        <item>Above -10.0%</item>
+    </string-array>
+    <string-array name="percent_3rel_2_below_options">
+        <item>None</item>
+        <item>Below 20%</item>
+        <item>Below 10%</item>
+        <item>Below 5.0%</item>
+        <item>Below 4.0%</item>
+        <item>Below 3.0%</item>
+        <item>Below 2.0%</item>
+        <item>Below 1.5%</item>
+        <item>Below 1.0%</item>
+        <item>Below 0.5%</item>
+        <item>Below -1.0%</item>
+        <item>Below -1.5%</item>
+        <item>Below -2.0%</item>
+        <item>Below -3.0%</item>
+        <item>Below -4.0%</item>
+        <item>Below -5.0%</item>
+        <item>Below -10.0%</item>
+    </string-array>
+
+    <string-array name="percent_2rel_1_above_options">
+        <item>None</item>
+        <item>Above 20.0%</item>
+        <item>Above 10.0%</item>
+        <item>Above 5.0%</item>
+        <item>Above 4.0%</item>
+        <item>Above 3.0%</item>
+        <item>Above 2.0%</item>
+        <item>Above 1.5%</item>
+        <item>Above 1.0%</item>
+        <item>Above 0.5%</item>
+        <item>Above 0.0%</item>
+        <item>Above -.5%</item>
+        <item>Above -1%</item>
+        <item>Above -1.5%</item>
+        <item>Above -2.0%</item>
+        <item>Above -3.0%</item>
+        <item>Above -4.0%</item>
+        <item>Above -5.0%</item>
+        <item>Above -10.0%</item>
+    </string-array>
+    <string-array name="percent_2rel_1_below_options">
+        <item>None</item>
+        <item>Below 20%</item>
+        <item>Below 10%</item>
+        <item>Below 5.0%</item>
+        <item>Below 4.0%</item>
+        <item>Below 3.0%</item>
+        <item>Below 2.0%</item>
+        <item>Below 1.5%</item>
+        <item>Below 1.0%</item>
+        <item>Below 0.5%</item>
+        <item>Below -1.0%</item>
+        <item>Below -1.5%</item>
+        <item>Below -2.0%</item>
+        <item>Below -3.0%</item>
+        <item>Below -4.0%</item>
+        <item>Below -5.0%</item>
+        <item>Below -10.0%</item>
+    </string-array>
+
+    <string-array name="near_3month_high">
+        <item>None</item>
+        <item>Within .25%</item>
+        <item>Within .5%</item>
+        <item>Within 1%</item>
+        <item>Within 2%</item>
+        <item>Within 3%</item>
+        <item>Within 5%</item>
+        <item>Within 10%</item>
+    </string-array>
+
+    <string-array name="sort_by">
+        <item>Price (High to Low)</item>
+        <item>Market Cap(High to Low)</item>
+        <item>Relative Volume (High to Low)</item>
+        <item>Volume (High to Low)</item>
+        <item>Volatility (High to Low)</item>
+        <item>Percent Change (High to Low)</item>
+        <item>Price (Low to High)</item>
+        <item>Market Cap (Low to High)</item>
+        <item>Relative Volume (Low to High)</item>
+        <item>Volume (Low to High)</item>
+        <item>Volatility (Low to High)</item>
+        <item>Percent Change (Low to High)</item>
+    </string-array>
+
+    <string-array name="near_resistance_3M_above_options">
+        <item>None</item>
+        <item>Above +5% From</item>
+        <item>Above +3% From</item>
+        <item>Above +2% From</item>
+        <item>Above +1% From</item>
+        <item>Above +0.5% From</item>
+        <item>Above +0.25% From</item>
+        <item>Above -.25% From </item>
+        <item>Above -.5% From</item>
+        <item>Above -1% From</item>
+        <item>Above -2% From</item>
+        <item>Above -3% From</item>
+        <item>Above -5% From</item>
+    </string-array>
+
+    <string-array name="near_resistance_3M_below_options">
+        <item>None</item>
+        <item>Below +5% From</item>
+        <item>Below +3% From</item>
+        <item>Below +2% From</item>
+        <item>Below +1% From</item>
+        <item>Below +0.5% From</item>
+        <item>Below +0.25% From</item>
+        <item>Below -.25% From </item>
+        <item>Below -.5% From</item>
+        <item>Below -1% From</item>
+        <item>Below -2% From</item>
+        <item>Below -3% From</item>
+        <item>Below -5% From</item>
+    </string-array>
+
+    <string-array name="near_resistance_1M_above_options">
+        <item>None</item>
+        <item>Above +5% From</item>
+        <item>Above +3% From</item>
+        <item>Above +2% From</item>
+        <item>Above +1% From</item>
+        <item>Above +0.5% From</item>
+        <item>Above +0.25% From</item>
+        <item>Above -.25% From </item>
+        <item>Above -.5% From</item>
+        <item>Above -1% From</item>
+        <item>Above -2% From</item>
+        <item>Above -3% From</item>
+        <item>Above -5% From</item>
+    </string-array>
+
+    <string-array name="near_resistance_1M_below_options">
+        <item>None</item>
+        <item>Below +5% From</item>
+        <item>Below +3% From</item>
+        <item>Below +2% From</item>
+        <item>Below +1% From</item>
+        <item>Below +0.5% From</item>
+        <item>Below +0.25% From</item>
+        <item>Below -.25% From </item>
+        <item>Below -.5% From</item>
+        <item>Below -1% From</item>
+        <item>Below -2% From</item>
+        <item>Below -3% From</item>
+        <item>Below -5% From</item>
+    </string-array>
+
+    <string-array name="near_support_3M_above_options">
+        <item>None</item>
+        <item>Above +5% From</item>
+        <item>Above +3% From</item>
+        <item>Above +2% From</item>
+        <item>Above +1% From</item>
+        <item>Above +0.5% From</item>
+        <item>Above +0.25% From</item>
+        <item>Above -.25% From </item>
+        <item>Above -.5% From</item>
+        <item>Above -1% From</item>
+        <item>Above -2% From</item>
+        <item>Above -3% From</item>
+        <item>Above -5% From</item>
+    </string-array>
+
+    <string-array name="near_support_3M_below_options">
+        <item>None</item>
+        <item>Below +5% From</item>
+        <item>Below +3% From</item>
+        <item>Below +2% From</item>
+        <item>Below +1% From</item>
+        <item>Below +0.5% From</item>
+        <item>Below +0.25% From</item>
+        <item>Below -.25% From </item>
+        <item>Below -.5% From</item>
+        <item>Below -1% From</item>
+        <item>Below -2% From</item>
+        <item>Below -3% From</item>
+        <item>Below -5% From</item>
+    </string-array>
+    
+    <string-array name="near_support_1M_above_options">
+        <item>None</item>
+        <item>Above +5% From</item>
+        <item>Above +3% From</item>
+        <item>Above +2% From</item>
+        <item>Above +1% From</item>
+        <item>Above +0.5% From</item>
+        <item>Above +0.25% From</item>
+        <item>Above -.25% From </item>
+        <item>Above -.5% From</item>
+        <item>Above -1% From</item>
+        <item>Above -2% From</item>
+        <item>Above -3% From</item>
+        <item>Above -5% From</item>
+    </string-array>
+
+    <string-array name="near_support_1M_below_options">
+        <item>None</item>
+        <item>Below +5% From</item>
+        <item>Below +3% From</item>
+        <item>Below +2% From</item>
+        <item>Below +1% From</item>
+        <item>Below +0.5% From</item>
+        <item>Below +0.25% From</item>
+        <item>Below -.25% From </item>
+        <item>Below -.5% From</item>
+        <item>Below -1% From</item>
+        <item>Below -2% From</item>
+        <item>Below -3% From</item>
+        <item>Below -5% From</item>
+    </string-array>
+    
+    <string-array name="parabolic_1wk_options">
+        <item>None</item>
+        <item>Strong Formation</item>
+        <item>Probable Formation</item>
+        <item>Possible Formation</item>
+    </string-array>
+
+    <string-array name="parabolic_1M_options">
+        <item>None</item>
+        <item>Strong Formation</item>
+        <item>Probable Formation</item>
+        <item>Possible Formation</item>
+    </string-array>
+
+    <string-array name="steady_movement_1M_options">
+        <item>None</item>
+        <item>Increasing</item>
+        <item>Decreasing</item>
+    </string-array>
+
+    <string-array name="steady_movement_1wk_options">
+        <item>None</item>
+        <item>Increasing</item>
+        <item>Decreasing</item>
+    </string-array>
+
+    <string-array name="near_resistance_daily_above_options">
+        <item>None</item>
+        <item>+5% From</item>
+        <item>+3% From</item>
+        <item>+2% From</item>
+        <item>+1% From</item>
+        <item>+0.5% From</item>
+        <item>+0.25% From</item>
+        <item>-.25% From </item>
+        <item>-.5% From</item>
+        <item>-1% From</item>
+        <item>-2% From</item>
+        <item>-3% From</item>
+        <item>-5% From</item>
+    </string-array>
+
+    <string-array name="near_resistance_daily_below_options">
+        <item>None</item>
+        <item>+5% From</item>
+        <item>+3% From</item>
+        <item>+2% From</item>
+        <item>+1% From</item>
+        <item>+0.5% From</item>
+        <item>+0.25% From</item>
+        <item>-.25% From </item>
+        <item>-.5% From</item>
+        <item>-1% From</item>
+        <item>-2% From</item>
+        <item>-3% From</item>
+        <item>-5% From</item>
+    </string-array>
+    
+    <string-array name="near_support_daily_above_options">
+        <item>None</item>
+        <item>Above +5% From</item>
+        <item>Above +3% From</item>
+        <item>Above +2% From</item>
+        <item>Above +1% From</item>
+        <item>Above +0.5% From</item>
+        <item>Above +0.25% From</item>
+        <item>Above -.25% From </item>
+        <item>Above -.5% From</item>
+        <item>Above -1% From</item>
+        <item>Above -2% From</item>
+        <item>Above -3% From</item>
+        <item>Above -5% From</item>
+    </string-array>
+
+    <string-array name="near_support_daily_below_options">
+        <item>None</item>
+        <item>Below +5% From</item>
+        <item>Below +3% From</item>
+        <item>Below +2% From</item>
+        <item>Below +1% From</item>
+        <item>Below +0.5% From</item>
+        <item>Below +0.25% From</item>
+        <item>Below -.25% From </item>
+        <item>Below -.5% From</item>
+        <item>Below -1% From</item>
+        <item>Below -2% From</item>
+        <item>Below -3% From</item>
+        <item>Below -5% From</item>
+    </string-array>
+
+    <string-array name="parabolic_1h_options">
+        <item>None</item>
+        <item>Strong Formation</item>
+        <item>Probable Formation</item>
+    </string-array>
+
+    <string-array name="steady_movement_intraday_options">
+        <item>None</item>
+        <item>Increasing Strong</item>
+        <item>Increasing Weak</item>
+        <item>Decreasing Strong</item>
+        <item>Decreasing Weak</item>
+    </string-array>
+
+    <string-array name="intraday_volatility_above_options">
+        <item>None</item>
+        <item>Above 10.0%</item>
+        <item>Above 7.5%</item>
+        <item>Above 5.0%</item>
+        <item>Above 4.0%</item>
+        <item>Above 3.0%</item>
+        <item>Above 2.0%</item>
+        <item>Above 1.5%</item>
+        <item>Above 1.0%</item>
+        <item>Above 0.5%</item>
+    </string-array>
+
+    <string-array name="intraday_volatility_below_options">
+        <item>None</item>
+        <item>Below 10.0%</item>
+        <item>Below 7.5%</item>
+        <item>Below 5.0%</item>
+        <item>Below 4.0%</item>
+        <item>Below 3.0%</item>
+        <item>Below 2.0%</item>
+        <item>Below 1.5%</item>
+        <item>Below 1.0%</item>
+        <item>Below 0.5%</item>
+    </string-array>
+
+</resources>

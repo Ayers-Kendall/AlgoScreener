@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkLayout"
+    android:orientation="vertical"
+    android:weightSum="1"
+
+    tools:context="com.quantumreasoning.algoscreener.MainActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ad_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/myAdView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5164013549454719/1790930410" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/menu_bar_layout">
+        <include android:id="@+id/menu_bar"
+            layout="@layout/menu_bar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_bar_layout"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_screener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="@string/screener"
+            android:textColor="#FFFFFF"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="My Watchlist"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button_my_watchlist"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+        </Button>
+
+        <Button
+            android:id="@+id/button_premium_watchlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Premium Watchlist"
+            android:textColor="#FFFFFF"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+        </Button>
+
+        <Button
+            android:id="@+id/button_about_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="About App"
+            android:textColor="#FFFFFF"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+        </Button>
+
+        <Button
+            android:id="@+id/button_contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Contact Us"
+            android:textColor="#FFFFFF"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+        </Button>
+
+        <Button
+            android:id="@+id/button_buy_premium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy Premium ($2.99)"
+            android:background="#00000000"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textColor="#FFFFFF"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+        </Button>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:color="#00000000"
+            />
+        <View
+            android:id="@+id/bottom_banner_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:id="@+id/message_of_the_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text = ""
+            android:textColor="#FFFFFF"/>
+        <View
+            android:id="@+id/top_banner_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#00000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="8sp"
+            android:text = "*** Disclaimer : This screener does not endorse the purchase or sale of any securities. Any information obtained through this app is for informational purposes only. We are not liable for any loss or damage caused to the user by reliance on information found in this app"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

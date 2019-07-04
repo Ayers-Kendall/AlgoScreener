@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:baselineAligned="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:id="@+id/menu_home">
+            <Button
+                android:id="@+id/menu_button_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nHome\n"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="13.2sp"
+                android:background="@color/colorPrimary"
+                android:foreground="?android:attr/selectableItemBackground"
+            />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:id="@+id/menu_screener">
+            <Button
+                android:id="@+id/menu_button_screener"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nScreener\n"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="13.2sp"
+                android:background="@color/colorPrimary"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:id="@+id/menu_my_watchlist">
+            <Button
+                android:id="@+id/menu_button_my_watchlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="My \nWatchlist"
+                android:textSize="13sp"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/colorPrimary"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:id="@+id/menu_premium_watchlist">
+            <Button
+                android:id="@+id/menu_button_premium_watchlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Premium \nWatchlist"
+                android:textSize="13sp"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/colorPrimary"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

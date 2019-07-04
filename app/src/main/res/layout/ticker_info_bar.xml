@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/top_layout"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorDarkLayout"
+        android:orientation="horizontal"
+        android:baselineAligned="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Button
+                android:id="@+id/ticker_info_ticker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ticker"
+                android:textSize="10sp"
+                android:gravity="center_vertical|center_horizontal|fill_vertical"
+                android:background="@color/colorDarkLayout"
+                android:textColor="#FFFFFF"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/ticker_info_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorDarkLayout"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Price"
+                android:textColor="#FFFFFF"
+                android:gravity="center_vertical|center_horizontal|fill_vertical"
+                android:textSize="10sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/ticker_info_volume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volume"
+                android:gravity="center_vertical|center_horizontal|fill_vertical"
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorDarkLayout"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/ticker_info_rel_volume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nRelative\nVolume\n"
+                android:gravity="center_vertical|center_horizontal|fill_vertical"
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorDarkLayout"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/ticker_info_market_cap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nMarket\nCap\n"
+                android:gravity="center_vertical|center_horizontal|fill_vertical"
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorDarkLayout"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/ticker_info_volatility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volatil."
+                android:gravity="center_vertical|center_horizontal|fill_vertical"
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorDarkLayout"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/ticker_info_percent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nPercent\nChange\n"
+                android:gravity="center_vertical|center_horizontal|fill_vertical"
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorDarkLayout"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

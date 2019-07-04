@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_screener_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.quantumreasoning.algoscreener.ScreenerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/menu_bar_layout">
+        <include android:id="@+id/menu_bar"
+            layout="@layout/menu_bar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_bar_layout"
+        android:id="@+id/ticker_info_bar_layout">
+
+        <include
+            android:id="@+id/ticker_info_bar"
+            layout="@layout/ticker_info_bar" />
+
+    </LinearLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ticker_info_bar_layout"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_screener"
+        android:background="@color/colorDarkLayout">
+
+        <LinearLayout
+            android:id="@+id/screener_ticker_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center|bottom"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:weightSum="1.5">
+                <Button
+                    android:id="@+id/screener_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@drawable/my_button_bg_2"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:text="Screener\nSettings" />
+                <View
+                    android:layout_height="match_parent"
+                    android:layout_width="8dp"></View>
+                <Button
+                    android:id="@+id/screener_load_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/my_button_bg_2"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:layout_weight=".5"
+                    android:text="Load\nSettings" />
+                <View
+                    android:layout_height="match_parent"
+                    android:layout_width="8dp"></View>
+                <Button
+                    android:id="@+id/screener_save_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/my_button_bg_2"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_weight=".5"
+                    android:text="Save\nSettings" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker1"
+                android:gravity="left|center"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+                android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker2"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:id="@+id/screener_ticker3"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker4"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker5"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker6"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker7"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker8"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker9"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker10"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker11"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker12"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker13"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker14"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker15"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker16"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker17"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker18"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker19"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker20"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker21"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker22"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker23"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker24"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/screener_ticker25"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+				android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13.0sp"
+                android:maxLines="2"
+                android:textColor="#e8e8e8"
+                android:background="#00000000"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/ad_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/myAdView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5164013549454719/5250705410" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

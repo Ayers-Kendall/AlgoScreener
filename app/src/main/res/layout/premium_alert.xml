@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="250sp"
+    android:background="@color/colorDarkLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Algo Screener Premium"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Now only $2.99"
+        android:gravity="center_horizontal|top"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Features:\n\n - Extra screening criteria with pattern recognition\n\n - Access to the premium watchlist updated daily\n\n - Intraday screening capabilities (coming soon) \n\n - Ability to save default settings"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF" />
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000">
+    </view>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_premium_popup"
+            android:background="@color/colorDarkLayout"
+            android:textColor="#FFFFFF"
+            android:text="Cancel"/>
+
+        <Button
+            android:id="@+id/buy_premium_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorDarkLayout"
+            android:text="Buy Premium"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

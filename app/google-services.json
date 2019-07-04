@@ -1,0 +1,231 @@
+{
+  "project_info": {
+    "project_number": "1036486960546",
+    "firebase_url": "https://stock-screener-7a81b.firebaseio.com",
+    "project_id": "stock-screener-7a81b",
+    "storage_bucket": "stock-screener-7a81b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036486960546:android:9f70f472968e5569",
+        "android_client_info": {
+          "package_name": "com.quantumreasoning.stockscreener"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036486960546-dc752p7lck3k3pea5rrl5v1hn9tmqp50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quantumreasoning.stockscreener",
+            "certificate_hash": "7a4fb6a6ac349b6387a05b1b1b8bf3931c46bd2d"
+          }
+        },
+        {
+          "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWTs3Y06maDKdsigc1GWEt6D-qAh56NO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036486960546:android:17a64f7c166a5435",
+        "android_client_info": {
+          "package_name": "com.quantumreasoning.stockscreenerpaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036486960546-l0sulbhf095bngsbp72fqr8l79b0v2s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quantumreasoning.stockscreenerpaid",
+            "certificate_hash": "7a4fb6a6ac349b6387a05b1b1b8bf3931c46bd2d"
+          }
+        },
+        {
+          "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWTs3Y06maDKdsigc1GWEt6D-qAh56NO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036486960546:android:d6bd15258fe9c902",
+        "android_client_info": {
+          "package_name": "com.quantumreasoning.stockscreenerfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036486960546-7626pep42ehmkctnhmmd57qjqpj0rodp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quantumreasoning.stockscreenerfree",
+            "certificate_hash": "7a4fb6a6ac349b6387a05b1b1b8bf3931c46bd2d"
+          }
+        },
+        {
+          "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWTs3Y06maDKdsigc1GWEt6D-qAh56NO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036486960546:android:e8f85367996ce47e",
+        "android_client_info": {
+          "package_name": "com.quantumreasoning.algoscreenerpremium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036486960546-j09t467525895otbvg242c7m6n6seeem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quantumreasoning.algoscreenerpremium",
+            "certificate_hash": "7a4fb6a6ac349b6387a05b1b1b8bf3931c46bd2d"
+          }
+        },
+        {
+          "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWTs3Y06maDKdsigc1GWEt6D-qAh56NO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036486960546:android:11fc2d3983338b9e",
+        "android_client_info": {
+          "package_name": "com.quantumreasoning.algoscreenerfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036486960546-9aonfkfp4op2dgh1e2tsp0atg3f4la3e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quantumreasoning.algoscreenerfree",
+            "certificate_hash": "7a4fb6a6ac349b6387a05b1b1b8bf3931c46bd2d"
+          }
+        },
+        {
+          "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWTs3Y06maDKdsigc1GWEt6D-qAh56NO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036486960546-rlfq1sbncva4dgrrhsuiq5bhbivnbt2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
