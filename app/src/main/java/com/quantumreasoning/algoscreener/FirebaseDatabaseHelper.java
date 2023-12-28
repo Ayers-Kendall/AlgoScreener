@@ -1083,7 +1083,7 @@ public class FirebaseDatabaseHelper {
             num_price = Double.parseDouble(price.trim());
             price = String.format("%.2f", num_price);
         }
-        if (!(rel_volume.equals("null") || rel_volume.equals("nan"))) {
+        if (!("null".equals(rel_volume) || "nan".equals(rel_volume))) {
             num_rel_volume = Double.parseDouble(rel_volume.trim());
         }
         if (!(volatility.equals("null"))) {

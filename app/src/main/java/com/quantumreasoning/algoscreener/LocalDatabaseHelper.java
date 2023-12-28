@@ -101,7 +101,7 @@ public class LocalDatabaseHelper extends SQLiteOpenHelper {
     public boolean insertScreenerSettings(String name, String settings) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues vals = new ContentValues();
-        if (name.equals("Default")){
+        if ("Default".equals(name)){
             deleteScreenerSettings("Default");
         }
 
